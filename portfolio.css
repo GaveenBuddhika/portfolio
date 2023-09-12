@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Portfolio/g.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 36.5%;
+    padding-right: 8%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+   
+}
+
+nav ul li a:hover {
+    color: #ff8400;
+    transform: 1;
+    transition: 0.4s;
+  
+}
+
+.content{
+    color: rgb(255, 255, 255);
+    z-index: 1000;
+    font-size: 30px;
+    padding-top: 90px;
+    padding-left: 38%;
+  
+
+
+}
+
+
+.btn {
+    background-color:#ff8400;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .3s;
+}
+
+.btn:hover {
+    background-color:transparent;
+    color:#ffffff;
+    border: 2px solid #ff8400;
+    transform: scale(1.2);
+}
+
+.content h5{
+padding-right: 30%;
+font-weight:lighter;
+
+}
+.content h3{
+
+color: #ff8400;
+
+}
+
+button{
+
+    background-color:#ff8400;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    top: 540px;
+    border: 2px solid trsparent;
+    font-weight: bold;
+    padding: 10px 20px 10px;
+    border-radius: 30px;
+    transition: transform .3s;
+
+
+
+
+}
+
+button:hover {
+    background-color:transparent;
+    color:#ffffff;
+    border: 2px solid #ff8400;
+    transform: scale(1.2);
+}
+
+.about{
+
+    color: #ffffff;
+   height:95vh;
+    width: 100%;
+    background-color:black;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+
+.about h2{
+
+text-align: center;
+padding: 30px ;
+font-size: 50px;
+
+
+}
+
+
+span{
+color: #ff8400;
+
+
+}
+
+.t{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.t h3{
+ 
+    padding-bottom: 10px;
+    color: #ffffff;
+
+
+}
+.t1{
+
+    
+    height: 450px;
+    width: 350px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.t2{
+    height: 450px;
+    width: 350px;
+    padding: 20px 35px;
+    background: #ed6a06;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.about button{
+
+    background-color:#ff8400;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    left: 680px;
+    top:1375px;
+    border: 2px solid trsparent;
+    font-weight: bold;
+    padding: 20px  30px;
+    border-radius: 30px;
+    transition: transform .3s;
+    
+
+
+
+
+}
+
+.about button:hover {
+    background-color:transparent;
+    color:#ffffff;
+    border: 2px solid #ff8400;
+    transform: scale(1.2);
+}
+
+.my{
+
+    color: #ffffff;
+   height:90vh;
+    width: 100%;
+    background-color:black;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+.my h2{
+
+    text-align: center;
+    padding: 30px ;
+    font-size: 50px;
+    
+    
+    }
+    
+
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+    }
+    
+    .card{
+        height: 450px;
+        width: 335px;
+        padding: 20px 35px;
+        background: #191919;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .card i{
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        color:  #ff8400;
+    }
+    
+    h5{
+        color: #ffffff;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    
+    .pra p{
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+    
+    .card .button{
+        background-color: #ff8400;
+        color: #ffffff;
+        text-decoration: none;
+        border: 2px solid transparent;
+        padding: 9px 22px;
+        border-radius: 30px;
+        transition: .4s;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    
+    .card .button:hover{
+        background-color: transparent;
+        border: 2px solid  #ff8400;
+        transform: scale(1.3);
+    }
+    
+
+
+
+
+
+
+    
+    .skills{
+
+        color: #ffffff;
+       height:75vh;
+        width: 100%;
+        background-color:black;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    
+    
+    
+    
+    .skills h2{
+    
+        text-align: center;
+        padding: 30px ;
+        font-size: 50px;
+        
+        }
+
+    .s1{
+        padding-top: 100px;
+        display: flex;
+        font-size: 35px;
+
+    }
+
+
+    .s2{
+       
+        padding-left: 300px;
+
+
+    }
+
+
+    .s3{
+
+       
+        padding-left: 400px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+    .contact{
+
+        color: #ffffff;
+       height:75vh;
+        width: 100%;
+        background-color:black;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    
+
+ 
+    
+   
+    
+    
+    .contact h2{
+    
+        text-align: center;
+        padding: 30px ;
+        padding-bottom: 50px;
+        font-size: 50px;
+        
+        
+        }
+
+
+
+  .contact h3{
+    
+   
+    padding-left:200px ;
+      font-size: 40px;
+
+
+
+
+  }
+
+
+    .social{
+            display: flex;    
+            padding-left:190px ;
+
+        }
+    .social a{
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:#ff8400;
+            border-radius: 50%;
+            margin: 22px 10px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+.social a:hover{
+    background-color:transparent;
+    color:#ffffff;
+    border: 2px solid #ff8400;
+     transform: scale(1.3);
+     transition: .3s;
+        }
+
+    .contact button{
+
+            background-color:#ff8400;
+            color: #ffffff;
+            text-decoration: none;
+            text-align: center;
+            position: absolute;
+            left: 810px;
+            top:3140px;
+            border: 2px solid trsparent;
+            font-weight: bold;
+            padding: 10px 20px 10px;
+            border-radius: 30px;
+            transition: transform .3s;
+        
+        
+        
+        
+        }
+        
+    .contact button:hover {
+            background-color:transparent;
+            color:#ffffff;
+            border: 2px solid #ff8400;
+            transform: scale(1.2);
+        }
+
+
+
+    .tab{
+            display: flex;
+
+    }
+
+    .details{
+      padding-top: 20px;
+      padding-left: 200px;
+      font-size: 20px;
+
+    }
+
+
+    #c2{
+    color: #ffffff;
+    text-align: left;  
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 4px;
+     border:0.5px solid #ff8400;
+     background-color: #000000;
+
+    }
+    #c3{
+        color: #ffffff;
+        text-align: left;  
+        padding: 10px;
+        width: 500px;
+        margin-bottom: 4px;
+        background-color: #000000;
+         border:0.5px solid #ff8400
+         
+    
+        }
+    
+        #c4{
+            color: #ffffff;
+            text-align: left;  
+            width: 500px;
+            height: 150px;
+            padding: 10px;
+            border:0.5px solid #ff8400;
+            background-color: #000000;
+             
+        
+            }
+        
+
+    h6{
+        text-align: center;
+        color: #ffffff;
+        font-weight: lighter;
+        padding-bottom: 20px;
+        background-color: #000000;
+    }
