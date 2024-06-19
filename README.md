@@ -29,7 +29,7 @@ To view this project locally, follow these steps:
     open index.html
     ```
 
-Your portfolio website should now be displayed in your browser.
+- Your portfolio website should now be displayed in your browser.
 
 ## Usage
 
